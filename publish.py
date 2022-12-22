@@ -1,6 +1,6 @@
 def setup():
     import os
-
+    
     print("installing modules...")
     cmds = [
         "pip install setuptools",
@@ -13,6 +13,6 @@ def setup():
 
     print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLogin:")
     os.system("python3 -m twine upload --repository pypi dist/*")
-
+  
 input("[ENTER]")
 setup()

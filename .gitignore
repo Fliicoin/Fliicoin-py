@@ -1,0 +1,4 @@
+build/
+dist/
+Fliicoin.egg-info/
+*.env
